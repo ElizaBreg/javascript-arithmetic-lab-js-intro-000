@@ -17,5 +17,5 @@ function decrement(a) {
   return a-1;
 }
 function makeInt(a) {
-  return parseIint(a);
+  return parseInt(a,10);
 }
